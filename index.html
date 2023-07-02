@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./IMAGE2/loo.jpeg" type="image/x-icon">
+  <title>QUOSA Membership Registration</title>
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-4">
+    <img src="./IMAGE2/loo.jpeg" alt="QUOSA Logo" height="100">
+    <h1>QUOSA Membership Registration</h1>
+    <p>ONYE ANYANA NWANNE YA!</p>
+  </header>
+  <div class="container">
+    <h5>Please fill out the following details to become a registered member of QUOSA (Queen of the Rosary College Old Students Association):</h5>
+    <form   action="https://formspree.io/f/myyqgazn"
+    method="POST">
+    <div class="form-row">
+        <div class="col">
+          <label for="first-name">First Name:</label>
+          <input type="text" name="first-name" class="form-control" id="first-name" placeholder="Enter your first name" required>
+        </div>
+        
+        <div class="col">
+          <label for="middle-name">Middle Name:</label>
+          <input type="text" name="middle-name" class="form-control" id="middle-name" placeholder="Enter your middle name">
+        </div>
+        
+        <div class="col">
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Enter your last name" required>
+        </div>
+      </div>
+      
+      
+      <div class="form-group">
+        <label for="nickname">Nickname:</label>
+        <input type="text" name="nickname" class="form-control" id="nickname" placeholder="Enter your nickname">
+      </div>
+      
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="number" class="form-control" id="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="address" name="Address" class="form-control" id="address" placeholder="Enter your address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="graduation-year">Year of Graduation:</label>
+        <input type="text" name="graduation-year" class="form-control" id="graduation-year" placeholder="Enter your graduation year" required>
+      </div>
+      <div class="form-group">
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" name="date-of-birth" class="form-control" id="birthday" required>
+      </div>
+      <div class="form-group">
+        <label for="acct-details">Account Details:</label>
+        <img src="./IMAGE2/acct.jpeg" alt="QUOSA Account Details" class="img-fluid mb-3">
+      </div>
+
+      <div class="form-group">
+        <label for="payment-method">Payment Method:</label>
+        <input type="payment-method" name="payment-method">
+        <select class="form-control" id="payment-method" required>
+          <option value="">-- Select Payment Method --</option>
+          <option value="cash">Cash</option>
+          <option value="bank-transfer">Bank Transfer</option>
+          <option value="online-payment">Online Payment</option>
+        </select>
+      </div>
+
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="agreement" required>
+        <label class="form-check-label" for="agreement">By signing this registration form, I agree to abide by the rules and regulations of QUOSA and uphold the values and integrity of the organization. I understand that the registration fee is non-refundable.</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+    <p>Please submit this form along with the registration fee to a QUOSA representative or email a scanned copy to (greatquosa2013@gmail.com). Upon receipt of the form and payment, your membership will be processed, and you will receive a confirmation email. <br><br>
+
+        Thank you for joining QUOSA. We look forward to your active participation and contribution to our community. <br><br>
+        Note: QUOSA reserves the right to review and approve all membership applications. Membership is subject to the acceptance of QUOSA's constitution and adherence to its guidelines.</p>
+    <ul>
+        <h2>Membership Benefits:</h2>
+        <li>Access to QUOSA events, reunions, and activities</li>
+        <li>Networking opportunities with fellow Queen of the Rosary College alumni</li>
+        <li>Updates on QUOSA initiatives and projects</li>
+        <li>Opportunity to contribute to the growth and development of QUOSA and our alma mater</li>
+  </div>
+ 
+  <footer class=" text-center py-3">
+    <p>For any inquiries, please contact QUOSA at <a href="mailto:info@quosa.org">info@quosa.org</a>.</p>
+    <p>&copy; 2023 QUOSA. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
